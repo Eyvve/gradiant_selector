@@ -2,7 +2,7 @@ import React from 'react'
 
 function Header() {
   return (
-    <header><h2>Gras Dient Generateur</h2></header>
+    <header><h2>Gradient generator</h2></header>
   )
 }
 
