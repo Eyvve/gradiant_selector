@@ -1,12 +1,34 @@
 header {
   margin-bottom: 25px;
 }
+.vizualiser {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+}
 
 .vizualiser_frame {
   position: relative;
   margin: 0 auto;
   width: 900px;
   height: 400px;
+}
+
+.vizualiser > h3 {
+  margin: 0 auto;
+  position: relative;
+  margin-top: 25px;
+  display: inline-block;
+  padding: 10px;
+  border-radius: 15px;
+  border: 1px solid darkslategrey;
+  background-color: gainsboro;
+  justify-self: center;
+}
+
+.vizualiser > h3:hover {
+  cursor: pointer;
+  background-color: lightgray;
 }
 
 .interface {
